@@ -30,6 +30,12 @@ cmd.add({"f3xhub"}, {"f3xhhub", "F3X HUB"}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/Scripts/main/f3xtrollhub"))()
 end)
 
+cmd.add({"sl"}, {"Shiftlock"," shiftlock, ye."}, function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/rcisback/shift/main/lock'))()end)
+
+cmd.add({"mk"}, {"mobile keyboard", "is keyboard for mobile"}, function()
+loadstring(game:HttpGet(('https://scriptblox.com/raw/Universal-Script-MobileKeyboard-8101'),true))()end)
+
 cmd.add({"ChatBypass"}, {"ChatBypass", "Simply Bypasses The Chat"}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/synnyyy/synergy/additional/betterbypasser", true))({
     Method = 1,
