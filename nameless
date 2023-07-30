@@ -18,6 +18,18 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Imagnir/r6_anims_for_
 cmd.add({"lagswitchgui"}, {"lagswitchgui", "a lag switch gui with on and off op for sword"}, function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/0Ben1/fe/main/Protected%20-%202023-05-28T225112.055.lua.txt'))()end)
 
+cmd.add({"AntiChatLag"}, {"AntiChatLag", "When Chat Lag Command Is Used You Dont Get Affected"}, function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/anthonysrepository/main/scripts/AntiChatLag.lua"))()
+end)
+
+cmd.add({"ChatLag"}, {"ChatLag", "Lags The Game When Chat Is Opened (anti chatlag command recommended)"}, function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/anthonysrepository/main/scripts/ChatLag.lua"))()
+end)
+
+cmd.add({"f3xhub"}, {"f3xhhub", "F3X HUB"}, function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/Scripts/main/f3xtrollhub"))()
+end)
+
 cmd.add({"ChatBypass"}, {"ChatBypass", "Simply Bypasses The Chat"}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/synnyyy/synergy/additional/betterbypasser", true))({
     Method = 1,
