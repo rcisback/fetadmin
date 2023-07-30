@@ -36,6 +36,9 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/rcisback/shift/main/l
 cmd.add({"mk"}, {"mobile keyboard", "is keyboard for mobile"}, function()
 loadstring(game:HttpGet(('https://scriptblox.com/raw/Universal-Script-MobileKeyboard-8101'),true))()end)
 
+cmd.add({"gg"}, {"givegamepass"," gamepass, gg."}, function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/rcisback/gg/main/nameless'))()end)
+
 cmd.add({"ChatBypass"}, {"ChatBypass", "Simply Bypasses The Chat"}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/synnyyy/synergy/additional/betterbypasser", true))({
     Method = 1,
