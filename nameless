@@ -27,7 +27,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/antho
 end)
 
 cmd.add({"f3xhub"}, {"f3xhhub", "F3X HUB"}, function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/Scripts/main/f3xtrollhub"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/f3x/main/hub"))()
 end)
 
 cmd.add({"sl"}, {"Shiftlock"," shiftlock, ye."}, function()
