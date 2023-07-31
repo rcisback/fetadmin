@@ -23,11 +23,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/antho
 end)
 
 cmd.add({"ChatLag"}, {"ChatLag", "Lags The Game When Chat Is Opened (anti chatlag command recommended)"}, function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/anthonysrepository/main/scripts/ChatLag.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/LagChat/main/lol"))()
 end)
 
 cmd.add({"f3xhub"}, {"f3xhhub", "F3X HUB"}, function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/f3x/main/hub"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/f3xhub/main/f3xhub"))()
 end)
 
 cmd.add({"sl"}, {"Shiftlock"," shiftlock, ye."}, function()
