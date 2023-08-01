@@ -42,6 +42,9 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/rcisback/gg/main/name
 cmd.add({"sp"}, {"simplespy"," simplespy, sp."}, function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/rcisback/simplespy/main/simplespy'))()end)
 
+cmd.add({"uv"}, {"universeviewer"," universeviewer, uv."}, function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Bilmemi/universal/main/finder'))()end)
+
 cmd.add({"emotes"}, {"emotes", "you get all emotes the keybind is comma"}, function()
 loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Gi7331/scripts/main/Emote.lua"))()end)
 
