@@ -34,7 +34,7 @@ cmd.add({"sl"}, {"Shiftlock"," shiftlock, ye."}, function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/rcisback/shift/main/lock'))()end)
 
 cmd.add({"mk"}, {"mobile keyboard", "is keyboard for mobile"}, function()
-loadstring(game:HttpGet(('https://scriptblox.com/raw/Universal-Script-MobileKeyboard-8101'),true))()end)
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt'),true))()end)
 
 cmd.add({"gg"}, {"givegamepass"," gamepass, gg."}, function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/rcisback/gg/main/nameless'))()end)
