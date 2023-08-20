@@ -51,6 +51,9 @@ loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Gi7331/scripts/m
 cmd.add({"wsbypass"}, {"wsbypass"," wsbypass, wsb."}, function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/rcisback/ws/main/bypass'))()end)
 
+cmd.add({"wsbypass"}, {"crawlgui"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/0Ben1/fe/main/obf_vZDX8j5ggfAf58QhdJ59BVEmF6nmZgq4Mcjt2l8wn16CiStIW2P6EkNc605qv9K4.lua.txt'))()end)
+
 cmd.add({"chatbypass"}, {"chatbypass", "Simply Bypasses The Chat"}, function()
 _G.Keybind = 'Q'
 _G.Method = 1
