@@ -16,7 +16,7 @@ cmd.add({"ForceR6"}, {"ForceR6", "It forces R6 when the command r6 doesn't work"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Imagnir/r6_anims_for_r15/main/r6_anims.lua"))()end)
 
 cmd.add({"lagswitchgui"}, {"lagswitchgui", "a lag switch gui with on and off op for sword"}, function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/0Ben1/fe/main/Protected%20-%202023-05-28T225112.055.lua.txt'))()end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe/main/obf_7wPfE71d836IXKFb72ToLBmDlsrvLuwsFeHzhcf4Yct4Jd2BS0Do88c56IBS9vfU.lua"))()end)
 
 cmd.add({"AntiChatLag"}, {"AntiChatLag", "When Chat Lag Command Is Used You Dont Get Affected"}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/anthonysrepository/main/scripts/AntiChatLag.lua"))()
@@ -46,13 +46,22 @@ cmd.add({"uv"}, {"universeviewer"," universeviewer, uv."}, function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Bilmemi/universal/main/finder'))()end)
 
 cmd.add({"emotes"}, {"emotes", "you get all emotes the keybind is comma"}, function()
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Gi7331/scripts/main/Emote.lua"))()end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FEmotesGui/main/FEmotesGui.lua", true))()end)
 
 cmd.add({"wsbypass"}, {"wsbypass"," wsbypass, wsb."}, function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/rcisback/ws/main/bypass'))()end)
 
 cmd.add({"crawlgui"}, {"crawlgui"," crawlgui, crgui."}, function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/0Ben1/fe/main/obf_vZDX8j5ggfAf58QhdJ59BVEmF6nmZgq4Mcjt2l8wn16CiStIW2P6EkNc605qv9K4.lua.txt'))()end)
+
+cmd.add({"flashbackgui"}, {"flashbackgui"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/L"))()end)
+
+cmd.add({"antifall"}, {"antifall"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/AntiFall/main/Script"))()end)
+
+cmd.add({"mfreecam"}, {"mfreecam"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/CameraSpy/main/Script", true))()end)
 
 cmd.add({"chatbypass"}, {"chatbypass", "Simply Bypasses The Chat"}, function()
 _G.Keybind = 'Q'
