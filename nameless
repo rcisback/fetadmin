@@ -63,6 +63,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/AntiFall/
 cmd.add({"mfreecam"}, {"mfreecam"," crawlgui, crgui."}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/CameraSpy/main/Script", true))()end)
 
+cmd.add({"mgravitygun"}, {"mgravitygun"," crawlgui, crgui."}, function()
+loadstring(Game:HttpGet("https://raw.githubusercontent.com/rcisback/mgravitygun/main/nameless"))()end)
+
+cmd.add({"toollock"}, {"toollock"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/PlayerLock/main/Script",true))()end)
+
+cmd.add({"remoteabuser"}, {"remoteabuser"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/RemoteHub/main/Main",true))()end)
+
 cmd.add({"chatbypass"}, {"chatbypass", "Simply Bypasses The Chat"}, function()
 _G.Keybind = 'Q'
 _G.Method = 1
