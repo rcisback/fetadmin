@@ -77,4 +77,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/synnyyy/synergy/addit
     Method = 1,
     Keybind = "F",
     ShowMethodDictionary = true
-})end)
+})
+end)
