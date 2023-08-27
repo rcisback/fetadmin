@@ -74,7 +74,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/RemoteHub
 
 cmd.add({"chatbypass"}, {"chatbypass", "Simply Bypasses The Chat"}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/synnyyy/synergy/additional/betterbypasser", true))({
-    Method = 1,
+    Method = 3,
     Keybind = "F",
     ShowMethodDictionary = true
 })
