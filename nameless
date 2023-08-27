@@ -73,7 +73,8 @@ cmd.add({"remoteabuser"}, {"remoteabuser"," crawlgui, crgui."}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/RemoteHub/main/Main",true))()end)
 
 cmd.add({"chatbypass"}, {"chatbypass", "Simply Bypasses The Chat"}, function()
-_G.Keybind = 'Q'
-_G.Method = 1
-loadstring(game:HttpGet("https://raw.githubusercontent.com/synnyyy/synergy/additional/betterbypasser",true))()
-end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/synnyyy/synergy/additional/betterbypasser", true))({
+    Method = 1,
+    Keybind = "F",
+    ShowMethodDictionary = true
+})end)
