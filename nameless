@@ -72,6 +72,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/PlayerLoc
 cmd.add({"remoteabuser"}, {"remoteabuser"," crawlgui, crgui."}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/RemoteHub/main/Main",true))()end)
 
+cmd.add({"car"}, {"car"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet(('https://pastefy.app/Te4dwSw2/raw'),true))()end)
+
+cmd.add({"controller"}, {"controller"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet(('https://pastefy.app/0CS5vmly/raw'),true))()end)
+
 cmd.add({"chatbypass"}, {"chatbypass", "Simply Bypasses The Chat"}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/synnyyy/synergy/additional/betterbypasser", true))({
     Method = 3,
