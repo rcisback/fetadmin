@@ -79,9 +79,4 @@ cmd.add({"controller"}, {"controller"," crawlgui, crgui."}, function()
 loadstring(game:HttpGet(('https://pastefy.app/Te4dwSw2/raw'),true))()end)
 
 cmd.add({"chatbypass"}, {"chatbypass", "Simply Bypasses The Chat"}, function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/synnyyy/synergy/additional/betterbypasser", true))({
-    Method = 3,
-    Keybind = "F",
-    ShowMethodDictionary = true
-})
-end)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Suno0526/Faith/main/module.lua', true))()end)
