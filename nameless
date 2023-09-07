@@ -81,5 +81,8 @@ loadstring(game:HttpGet(('https://pastefy.app/Te4dwSw2/raw'),true))()end)
 cmd.add({"secretpanel"}, {"secretpanel"," crawlgui, crgui."}, function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/rcisback/namelessfet/main/secret'),true))()end)
 
+cmd.add({"adminpanel"}, {"adminpanel"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet(('https://pastefy.ga/Oic24KzG/raw'),true))()end)
+
 cmd.add({"chatbypass"}, {"chatbypass", "Simply Bypasses The Chat"}, function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Suno0526/Faith/main/module.lua', true))()end)
