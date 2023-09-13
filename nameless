@@ -84,7 +84,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/rcisback/namelessfet
 cmd.add({"hatspam"}, {"hatspam"," crawlgui, crgui."}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/retrohatspam/main/fe"))()end)
 
-cmd.add({"reach2"}, {"reach2"," crawlgui, crgui."}, function()
+cmd.add({"handlereach"}, {"handlereach"," crawlgui, crgui."}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/reach2/main/nameless"))()end)
 
 cmd.add({"chatbypass"}, {"chatbypass", "Simply Bypasses The Chat"}, function()
