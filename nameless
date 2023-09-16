@@ -109,4 +109,9 @@ cmd.add({"vantifling"}, {"vantifling"," crawlgui, crgui."}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/vantifling/main/vantifling"))()end)
 
 cmd.add({"chatbypass"}, {"chatbypass", "Simply Bypasses The Chat"}, function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Suno0526/Faith/main/module.lua', true))()end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/synnyyy/synergy/additional/betterbypasser", true))({
+    Method = 3,
+    Keybind = "f",
+    ShowMethodDictionary = true 
+})
+end)
