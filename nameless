@@ -105,5 +105,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Tool")
 cmd.add({"animspeedgui"}, {"animspeedgui"," crawlgui, crgui."}, function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/0Ben1/fe./4e66cb5920537b276c2ae2ff7a65184b021455a6/Tae'))()end)
 
+cmd.add({"vantifling"}, {"vantifling"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/vantifling/main/vantifling"))()end)
+
 cmd.add({"chatbypass"}, {"chatbypass", "Simply Bypasses The Chat"}, function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Suno0526/Faith/main/module.lua', true))()end)
