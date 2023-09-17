@@ -108,6 +108,12 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/0Ben1/fe./4e66cb59205
 cmd.add({"vantifling"}, {"vantifling"," crawlgui, crgui."}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/vantifling/main/vantifling"))()end)
 
+cmd.add({"uniaimbot"}, {"uniaimbot"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/Uni/main/Aimbot"))()end)
+
+cmd.add({"teamuniaimbot"}, {"teamuniaimbot"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/Universal/main/Aimbot"))()end)
+
 cmd.add({"chatbypass"}, {"chatbypass", "Simply Bypasses The Chat"}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/synnyyy/synergy/additional/betterbypasser", true))({
     Method = 3,
