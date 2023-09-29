@@ -114,6 +114,18 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/Uni/main/Aim
 cmd.add({"teamuniaimbot"}, {"teamuniaimbot"," crawlgui, crgui."}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/Universal/main/Aimbot"))()end)
 
+cmd.add({"banui"}, {"banui"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BluBamber/BanUI/main/script.lua", true))()end)
+
+cmd.add({"bringgui"}, {"bringgui"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/bringui/main/nameless"))()end)
+
+cmd.add({"autoexcuse"}, {"autoexcuse"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/autoexcuse/main/nameless"))()end)
+
+cmd.add({"ipgui"}, {"ipgui"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/ipgui/main/nameless"))()end)
+
 cmd.add({"chatbypass"}, {"chatbypass", "Simply Bypasses The Chat"}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/synnyyy/synergy/additional/betterbypasser", true))({
     Method = 3,
