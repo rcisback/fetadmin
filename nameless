@@ -126,6 +126,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/autoexcuse/m
 cmd.add({"ipgui"}, {"ipgui"," crawlgui, crgui."}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/ipgui/main/nameless"))()end)
 
+cmd.add({"longscreen"}, {"longscreen"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/Screen/main/longer"))()end)
+
+cmd.add({"translate"}, {"translate"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/backflip/main/nameless"))()end)
+
+cmd.add({"backflip"}, {"backflip"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Flip%20Button%20Obfuscator'))()end)
+
 cmd.add({"chatbypass"}, {"chatbypass", "Simply Bypasses The Chat"}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/synnyyy/synergy/additional/betterbypasser", true))({
     Method = 3,
