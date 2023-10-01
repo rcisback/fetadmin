@@ -129,7 +129,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/ipgui/main/n
 cmd.add({"longscreen"}, {"longscreen"," crawlgui, crgui."}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/Screen/main/longer"))()end)
 
-cmd.add({"translate"}, {"translate"," crawlgui, crgui."}, function()
+cmd.add({"translater"}, {"translater"," crawlgui, crgui."}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/backflip/main/nameless"))()end)
 
 cmd.add({"backflip"}, {"backflip"," crawlgui, crgui."}, function()
