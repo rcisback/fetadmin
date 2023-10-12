@@ -135,6 +135,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/PivotEngine/cool_scri
 cmd.add({"backflip"}, {"backflip"," crawlgui, crgui."}, function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Flip%20Button%20Obfuscator'))()end)
 
+cmd.add({"2006"}, {"2006"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Waterpark-Old-Animations-7547"))()end)
+
 cmd.add({"chatbypass"}, {"chatbypass", "Simply Bypasses The Chat"}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/synnyyy/synergy/additional/betterbypasser", true))({
     Method = 3,
