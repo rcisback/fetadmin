@@ -144,6 +144,9 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/rcisback/Antilock/mai
 cmd.add({"antiresolve"}, {"antiresolve"," crawlgui, crgui."}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/Antiresolve/main/Nameless"))()end)
 
+cmd.add({"ferep"}, {"ferep"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/rcisback/ferep/main/nameless'))()end)
+
 cmd.add({"chatbypass"}, {"chatbypass", "Simply Bypasses The Chat"}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/synnyyy/synergy/additional/betterbypasser", true))({
     Method = 3,
