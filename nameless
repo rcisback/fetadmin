@@ -138,6 +138,12 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/
 cmd.add({"2006"}, {"2006"," crawlgui, crgui."}, function()
 loadstring(game:HttpGet("https://scriptblox.com/raw/Waterpark-Old-Animations-7547"))()end)
 
+cmd.add({"antilock"}, {"antilock"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/rcisback/Antilock/main/Nameless'))()end)
+
+cmd.add({"antiresolve"}, {"antiresolve"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/Antiresolve/main/Nameless"))()end)
+
 cmd.add({"chatbypass"}, {"chatbypass", "Simply Bypasses The Chat"}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/synnyyy/synergy/additional/betterbypasser", true))({
     Method = 3,
