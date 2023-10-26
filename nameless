@@ -148,7 +148,7 @@ cmd.add({"ferep"}, {"ferep"," crawlgui, crgui."}, function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/rcisback/ferep/main/nameless'))()end)
 
 cmd.add({"gianthead"}, {"gianthead"," crawlgui, crgui."}, function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/rcisback/gianthead/main/nameless'))()end)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/sysGhost-aka-BiKode/Scripts2022/main/BigHeadV3_Unpatched'))()end)
 
 cmd.add({"killaura"}, {"killaura"," crawlgui, crgui."}, function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/rcisback/killaura/main/nameless'))()end)
