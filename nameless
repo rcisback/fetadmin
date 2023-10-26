@@ -147,6 +147,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/Antiresolve/
 cmd.add({"ferep"}, {"ferep"," crawlgui, crgui."}, function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/rcisback/ferep/main/nameless'))()end)
 
+cmd.add({"gianthead"}, {"gianthead"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/rcisback/gianthead/main/nameless'))()end)
+
+cmd.add({"killaura"}, {"killaura"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/rcisback/killaura/main/nameless'))()end)
+
+cmd.add({"walkonwalls"}, {"walkonwalls"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet('https://controlc.com/19a39f78/fullscreen.php?hash=21291584a67a6582d8ede767c637c678&toolbar=true&linenum=false'))()end)
+
 cmd.add({"chatbypass"}, {"chatbypass", "Simply Bypasses The Chat"}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/synnyyy/synergy/additional/betterbypasser", true))({
     Method = 3,
