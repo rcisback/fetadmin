@@ -165,6 +165,12 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/rcisback/Autoclicker/
 cmd.add({"toollkill"}, {"toollkill"," crawlgui, crgui."}, function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/zephyr10101/sword-kill-all/main/script'))()end)
 
+cmd.add({"lstealtools"}, {"lstealtools"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/rcisback/lstealtools/main/nameless'))()end)
+
+cmd.add({"stealtools"}, {"stealtools"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/rcisback/stealtools/main/nameless'))()end)
+
 cmd.add({"chatbypass"}, {"chatbypass", "Simply Bypasses The Chat"}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/synnyyy/synergy/additional/betterbypasser", true))({
     Method = 3,
