@@ -7,7 +7,7 @@ cmd.add({"mvf"}, {"mobilevehiclefly (mvfly)"," be able to fly vehicles but on mo
 loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/mvfly/main/nameless"))()end)
 
 cmd.add({"vm"}, {"victim menu (vm)"," victim menu a op fe menu to troll"}, function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/GS21Official/DH-VictimMenu-Script/main/Dh%20VictimMenu%3A%20Script"))()end)
+loadstring(game:HttpGet(('https://pastefy.app/ic5m4aJG/raw'),true))()end)
 
 cmd.add({"rtx"}, {"rtx", "ImPatrick RTX"}, function()
 loadstring(game:HttpGet(('https://pastefy.app/xXkUxA0P/raw'),true))()end)
@@ -170,6 +170,15 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/rcisback/lstealtools/
 
 cmd.add({"stealtools"}, {"stealtools"," crawlgui, crgui."}, function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/rcisback/stealtools/main/nameless'))()end)
+
+cmd.add({"portalgun"}, {"portalgun"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/rcisback/Portalgun/main/nameless'))()end)
+
+cmd.add({"deathnote"}, {"deathnote"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet(('h'..'t'..'t'..'p'..'s'..':'..'/'..'/'..'p'..'a'..'s'..'t'..'e'..'f'..'y'..'.'..'a'..'pp'..'/'..'G'..'o'..'K'..'x'..'Y'..'B'..'k'..'U'..'/'..'r'..'a'..'w'), true))()end)
+
+cmd.add({"headthrower"}, {"headthrower"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet(('https://pastefy.app/tI5b3OVD/raw'),true))()end)
 
 cmd.add({"chatbypass"}, {"chatbypass", "Simply Bypasses The Chat"}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/synnyyy/synergy/additional/betterbypasser", true))({
