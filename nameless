@@ -154,7 +154,7 @@ cmd.add({"killaura"}, {"killaura"," crawlgui, crgui."}, function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/rcisback/killaura/main/nameless'))()end)
 
 cmd.add({"walkonwalls"}, {"walkonwalls"," crawlgui, crgui."}, function()
-loadstring(game:HttpGet('https://controlc.com/19a39f78/fullscreen.php?hash=21291584a67a6582d8ede767c637c678&toolbar=true&linenum=false'))()end)
+loadstring(game:HttpGet('https://controlc.com/19a39f78/fullscreen.php?hash=3cac99451bd64623c9806a3687f0d687&toolbar=false&linenum=false'))()end)
 
 cmd.add({"hydro"}, {"hydro"," crawlgui, crgui."}, function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/rcisback/hydro/main/nameless'))()end)
