@@ -183,6 +183,9 @@ loadstring(game:HttpGet(('https://pastefy.app/tI5b3OVD/raw'),true))()end)
 cmd.add({"zerogravityparts"}, {"zerogravityparts"," crawlgui, crgui."}, function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/rcisback/zerogravityparts/main/nameless'))()end)
 
+cmd.add({"pendulum"}, {"pendulum"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()end)
+
 cmd.add({"chatbypass"}, {"chatbypass", "Simply Bypasses The Chat"}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/synnyyy/synergy/additional/betterbypasser", true))({
     Method = 3,
