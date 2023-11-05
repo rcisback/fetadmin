@@ -192,6 +192,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/headfling/ma
 cmd.add({"hatfling"}, {"hatfling"," crawlgui, crgui."}, function()
 loadstring(game:HttpGet('https://gist.githubusercontent.com/1BlueCat/544f7efbe88235666b5b7add65b7344d/raw/f20804bb85542dcc3bc938982e1f05b7ff05cded/FE%2520Hat%2520Fling'))()end)
 
+cmd.add({"mousefling"}, {"mousefling"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/dark-modz/dcd8a483a1ba00904cc3261a8299cfa1/raw/9a60d9c7c1f4749e6be2c27e2cdb80dec5cd8f2a/clickfling",true))()end)
+
 cmd.add({"chatbypass"}, {"chatbypass", "Simply Bypasses The Chat"}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/synnyyy/synergy/additional/betterbypasser", true))({
     Method = 3,
