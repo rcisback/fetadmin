@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'))()
 
 cmd.add({"Playerlifter"}, {"Playerlifter", "Click on a player to lift them to the heavens"}, function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/rcisback/playerfly/main/nameless'))()end)
@@ -203,9 +203,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/fftool/main/
 
 cmd.add({"deletehitbox"}, {"deletehitbox"," crawlgui, crgui."}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/Deletehitbox/main/Nameless"))()end)
-
-cmd.add({"unife"}, {"unife"," crawlgui, crgui."}, function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'))()
 
 cmd.add({"chatbypass"}, {"chatbypass", "Simply Bypasses The Chat"}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/synnyyy/synergy/additional/betterbypasser", true))({
