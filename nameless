@@ -204,6 +204,16 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/fftool/main/
 cmd.add({"deletehitbox"}, {"deletehitbox"," crawlgui, crgui."}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/Deletehitbox/main/Nameless"))()end)
 
+cmd.add({"npccontrol"}, {"npccontrol"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet(('https://pastefy.app/x8nWWq0M/raw'),true))()end)
+
+cmd.add({"moveua"}, {"moveua"," crawlgui, crgui."}, function()
+loadstring(game:HttpGet(('https://pastefy.app/Vcuyg09O/raw'),true))()end)
+
+cmd.add({"chippanel"}, {"chippanel"," crawlgui, crgui."}, function()
+local c = "K3Ep6gX2/raw"
+loadstring(game:HttpGet(('https://pastefy.app/'..c),true))()end)
+
 cmd.add({"chatbypass"}, {"chatbypass", "Simply Bypasses The Chat"}, function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/synnyyy/synergy/additional/betterbypasser", true))({
     Method = 3,
